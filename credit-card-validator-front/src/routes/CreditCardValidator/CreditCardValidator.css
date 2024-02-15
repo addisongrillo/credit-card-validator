@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header {
+    margin-top: 5rem;
+    font-size: 48px;
+}
+
+#validate-button{
+    margin-top: 2rem;
+}
+
+#cc-input{
+    width: 13rem;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.result{
+    animation: fadeIn 1s;
+}
